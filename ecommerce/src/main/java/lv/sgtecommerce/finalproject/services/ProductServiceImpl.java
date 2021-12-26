@@ -1,6 +1,6 @@
 package lv.sgtecommerce.finalproject.services;
 
-import lv.sgtecommerce.finalproject.repositories.Product;
+import lv.sgtecommerce.finalproject.models.Product;
 import lv.sgtecommerce.finalproject.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

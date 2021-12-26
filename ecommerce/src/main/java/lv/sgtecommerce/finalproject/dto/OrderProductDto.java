@@ -1,6 +1,6 @@
 package lv.sgtecommerce.finalproject.dto;
 
-import lv.sgtecommerce.finalproject.repositories.Product;
+import lv.sgtecommerce.finalproject.models.Product;
 
 public class OrderProductDto {
 

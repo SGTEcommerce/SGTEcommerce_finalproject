@@ -1,7 +1,7 @@
 package lv.sgtecommerce.finalproject.services;
 
 
-import lv.sgtecommerce.finalproject.repositories.Product;
+import lv.sgtecommerce.finalproject.models.Product;
 import org.springframework.validation.annotation.Validated;
 
 import javax.validation.constraints.Min;

@@ -1,6 +1,6 @@
 package lv.sgtecommerce.finalproject.services;
 
-import lv.sgtecommerce.finalproject.repositories.OrderProduct;
+import lv.sgtecommerce.finalproject.models.OrderProduct;
 import lv.sgtecommerce.finalproject.repositories.OrderProductRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
