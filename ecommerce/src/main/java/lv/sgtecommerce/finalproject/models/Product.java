@@ -1,3 +1,4 @@
+
 package lv.sgtecommerce.finalproject.models;
 
 import org.hibernate.annotations.Type;
@@ -53,8 +54,6 @@ public class Product {
     }
 
     //Standard getters and setters
-
-
     public Long getId() {
         return id;
     }
