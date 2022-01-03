@@ -1,6 +1,6 @@
 package lv.sgtecommerce.finalproject.services;
 
-import lv.sgtecommerce.finalproject.repositories.Order;
+import lv.sgtecommerce.finalproject.models.Order;
 import org.springframework.validation.annotation.Validated;
 
 import javax.validation.Valid;

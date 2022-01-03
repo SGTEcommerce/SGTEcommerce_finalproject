@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SGTEcommerce.iml" filepath="$PROJECT_DIR$/.idea/SGTEcommerce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SGTEcommerce_finalproject.iml" filepath="$PROJECT_DIR$/.idea/SGTEcommerce_finalproject.iml" />
       <module fileurl="file://$PROJECT_DIR$/ecommerce/ecommerce.iml" filepath="$PROJECT_DIR$/ecommerce/ecommerce.iml" />
     </modules>
   </component>

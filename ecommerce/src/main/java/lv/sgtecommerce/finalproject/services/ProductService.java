@@ -1,8 +1,9 @@
 package lv.sgtecommerce.finalproject.services;
 
 
-import lv.sgtecommerce.finalproject.repositories.Product;
+import lv.sgtecommerce.finalproject.models.Product;
 import org.springframework.validation.annotation.Validated;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;

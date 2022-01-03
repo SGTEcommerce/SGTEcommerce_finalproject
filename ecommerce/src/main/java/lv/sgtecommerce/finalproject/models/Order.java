@@ -1,4 +1,4 @@
-package lv.sgtecommerce.finalproject.repositories;
+package lv.sgtecommerce.finalproject.models;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
