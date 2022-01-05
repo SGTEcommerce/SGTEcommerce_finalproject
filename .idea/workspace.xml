@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f22136f-1fa1-4b17-b655-452b06b094d5" name="Changes" comment="First add" />
+    <list default="true" id="2f22136f-1fa1-4b17-b655-452b06b094d5" name="Changes" comment="First add">
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641423664213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="First add">
+      <created>1641423776646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641423776646</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
