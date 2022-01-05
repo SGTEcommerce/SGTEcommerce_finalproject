@@ -45,7 +45,7 @@ export class ProductsComponent implements OnInit {
 
   getProductIndex(product: Product): number {
 
-    // If there i no product orders
+    // If there are no product orders
     if( !this.ecommerceService.ProductOrders) {
       return -1;
     }
