@@ -9,6 +9,9 @@ import { OrdersComponent } from './ecommerce/orders/orders.component';
 import { ShoppingCartComponent } from './ecommerce/shopping-cart/shopping-cart.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { MenuComponent } from './ecommerce/menu/menu.component';
+import { UsersComponent } from './ecommerce/admin/users/users.component';
+import { FooterComponent } from './ecommerce/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { FormsModule } from '@angular/forms';
     EcommerceComponent,
     ProductsComponent,
     OrdersComponent,
-    ShoppingCartComponent
+    ShoppingCartComponent,
+    MenuComponent,
+    UsersComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
