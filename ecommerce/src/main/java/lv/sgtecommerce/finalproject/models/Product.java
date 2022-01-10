@@ -20,7 +20,7 @@ public class Product {
     @Column(name = "sold_out")
     private boolean soldOut;
 
-    private Double price;
+    private Float price;
 
     @Column(name = "old_price")
     private Double oldPrice;
@@ -28,7 +28,7 @@ public class Product {
     private String image;
 
     @Column(length = 65535)
-   // @Type(type = "text")
+    @Type(type = "text")
     private String description;
 
     @OneToOne(cascade = CascadeType.ALL)
