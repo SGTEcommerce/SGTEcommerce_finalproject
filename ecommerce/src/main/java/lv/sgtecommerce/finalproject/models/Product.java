@@ -28,7 +28,7 @@ public class Product {
     private String image;
 
     @Column(length = 65535)
-    @Type(type = "text")
+   // @Type(type = "text")
     private String description;
 
     @OneToOne(cascade = CascadeType.ALL)
