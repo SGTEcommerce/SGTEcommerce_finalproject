@@ -5,7 +5,8 @@
                 <h4>{{order.product.name}}</h4>
             </div>
             <div class="card-body">
-                <a href="#"><img class="card-img-top" src={{order.product.image}}
+                <!--image should be clickabale for details-->
+                <a href="#"><img class ="card-img-top" (click)="onSelect(order.product)" src={{order.product.image}}
                     alt=""></a>
                 <h5 class="card-title">€{{order.product.price}}</h5>
                 <div class="row">

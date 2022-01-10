@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { UsersComponent } from './ecommerce/admin/users/users.component';
+import { AboutComponent } from './ecommerce/menu/about/about.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'about', component: AboutComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
