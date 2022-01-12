@@ -13,7 +13,7 @@ import { MenuComponent } from './ecommerce/menu/menu.component';
 import { UsersComponent } from './ecommerce/admin/users/users.component';
 import { FooterComponent } from './ecommerce/footer/footer.component';
 import { ProductDetailsComponent } from './ecommerce/product-details/product-details.component';
-import { AboutComponent } from './ecommerce/menu/about/about.component';
+import { AboutComponent } from './ecommerce/about/about.component';
 
 
 @NgModule({
