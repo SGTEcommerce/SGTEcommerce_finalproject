@@ -20,7 +20,7 @@ public class Product {
     @Column(name = "sold_out")
     private boolean soldOut;
 
-    private Float price;
+    private Double price;
 
     @Column(name = "old_price")
     private Double oldPrice;
