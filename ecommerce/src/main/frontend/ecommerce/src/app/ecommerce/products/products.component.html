@@ -1,4 +1,5 @@
 <div class="row card-deck">
+<<<<<<< HEAD
   <div class="col-lg-4 col-md-6 mb-4" *ngFor="let order of productOrders">
     <div class="card text-center">
       <div class="card-header bg-secondary">
@@ -14,6 +15,23 @@
             <input type="number" min="0" class="form-control"
                    [(ngModel)]=order.quantity>
           </div>
+=======
+    <div class="col-lg-4 col-md-6 mb-4" *ngFor="let order of productOrders">
+        <div class="card text-center">
+            <div class="card-header">
+                <h4>{{order.product.name}}</h4>
+            </div>
+            <div class="card-body">
+                <!--image should be clickabale for details-->
+                <a href="#"><img class ="card-img-top" (click)="onSelect(order.product)" src={{order.product.image}}
+                    alt=""></a>
+                <h5 class="card-title">€{{order.product.price}}</h5>
+                <div class="row">
+                    <div class="col-4 padding-0" *ngIf="!isProductSelected(order.product)">
+                        <input type="number" min="0" class="form-control"
+                            [(ngModel)]=order.quantity>
+                    </div>
+>>>>>>> origin/nav_menu_routing
 
           <div class="col-4 padding-0" *ngIf="!isProductSelected(order.product)">
             <button class="btn btn-secondary" (click)="addToCart(order)"

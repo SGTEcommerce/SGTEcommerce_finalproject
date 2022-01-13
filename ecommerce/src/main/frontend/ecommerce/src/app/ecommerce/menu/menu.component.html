@@ -1,5 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
+<<<<<<< HEAD
     <a class="navbar-brand" href="index.html">
       <img src="/assets/logo.JPG" alt="logo" width="40" height="32" class="d-inline-block align-text-top">PE_UNIQUE</a>
 
@@ -12,10 +13,22 @@
            [routerLinkActiveOptions]="{exact: true}">ABOUT</a>
         <a class="nav-link" routerLinkActive="active" routerLink="/yewelery"
            [routerLinkActiveOptions]="{exact: true}">YEWELERY</a>
+=======
+    <a class="navbar-brand" href="#">
+     <img src="/assets/logo.JPG" alt="logo" width="40" height="32" class="d-inline-block align-text-top">PE_UNIQUE</a>
+     
+     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        <a class="nav-link" routerLinkActive="active" routerLink="/about"
+        [routerLinkActiveOptions]="{exact: true}">ABOUT</a>
+        <a class="nav-link" href="#">YEWELERY</a>
+>>>>>>> origin/nav_menu_routing
       </div>
       <router-outlet></router-outlet>
     </div>
 
+<<<<<<< HEAD
     <div class="navbar-nav ml-auto">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <a class="nav-item nav-link " routerLink="/cart">
@@ -40,3 +53,27 @@
 
   </div>
 </nav>
+=======
+     <!-- User section -->
+     <div class="navbar-nav">
+      <a class="nav-link" routerLink="/login">
+        <p>Login</p>
+      </a>
+  
+      <a class="nav-link" routerLink="/signup">
+      <p>Sign up</p>
+    </a>
+  </div>
+
+    <!-- Search section -->
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-sm btn-outline-secondary" type="submit">Search</button>
+      </form>
+      
+  </div>
+</nav>
+ 
+
+
+>>>>>>> origin/nav_menu_routing
