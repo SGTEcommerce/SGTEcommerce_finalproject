@@ -11,7 +11,6 @@ import org.springframework.web.multipart.MultipartFile;
 @Transactional
 public class ProductServiceImpl implements ProductService {
 
-    // productRepository constructor injection
     @Autowired
     ProductRepository productRepository;
 

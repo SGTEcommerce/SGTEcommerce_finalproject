@@ -7,10 +7,12 @@ import { EcommerceComponent } from './ecommerce/ecommerce.component';
 import { ShoppingCartComponent } from './ecommerce/shopping-cart/shopping-cart.component';
 
 const routes: Routes = [
-  { path: 'home', component: EcommerceComponent },
-  { path: 'yewelery', component: ProductsComponent},
+  { path: '', redirectTo: 'home', pathMatch: 'full'},
+  { path: 'home', component: ProductsComponent },
+  { path: 'yewelery', component: EcommerceComponent},
   { path: 'about', component: AboutComponent },
   { path: 'details', component: ProductDetailsComponent },
+  { path: 'cart', component: ShoppingCartComponent },
  /* { path: 'faq', component: FaqComponent },
   { path: 'policies', component: PoliciesComponent },
   { path: 'login', component: LoginComponent },*/
