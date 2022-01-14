@@ -1,12 +1,41 @@
-<h2 class="text-center">ORDER</h2>
-<ul>
-    <li *ngFor="let order of orders.productOrders">
-        {{ order.product.name }} - ${{ order.product.price }} x {{ order.quantity}} pcs.
-    </li>
-</ul>
-<h3 class="text-right">Total amount: ${{ total }}</h3>
+<div class="summary">Order Details</div>
 
-<button class="btn btn-primary btn-block" (click)="pay()" *ngIf="!paid">Pay</button>
-<div class="alert alert-success" role="alert" *ngIf="paid">
-    <strong>Congratulation!</strong> You successfully made the order.
+<table class="table table-striped text-center">
+    <thead>
+    <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Subtotal</th>
+    </tr>
+    </thead>
+
+<tbody>
+    <tr *ngFor="let order of orders.productOrders">
+        <th class="align-middle">
+            <p class="product-name">{{ order.product.name }}</p>
+        </th>
+       
+        <td class="align-middle">
+            <p class="price">Price: <span>€{{ order.product.price }}</span></p>
+        </td>
+
+        <td class="align-middle">
+            <p class="quantity">Quantity: <span>{{ order.quantity}} pcs.</span></p>
+        </td>
+
+        <td class="align-middle">
+           <p class="amount">Amount: <span>€{{ order.product.price*order.quantity}}</span></p>
+        </td>
+
+    </tr>
+</tbody>
+</table>
+
+    <div class="total">Total amount: €{{ total }}</div>
+    <div class="row">
+        <button class="btn btn-primary btn-block" (click)="pay()" *ngIf="!paid">Purchase</button>
+    <div class="alert alert-success" role="alert" *ngIf="paid">
+        <strong>Congratulation!</strong> You successfully made the order.
+    </div>
 </div>

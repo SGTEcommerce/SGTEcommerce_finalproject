@@ -11,13 +11,27 @@ import org.springframework.web.multipart.MultipartFile;
 @Transactional
 public class ProductServiceImpl implements ProductService {
 
-    // productRepository constructor injection
     @Autowired
     ProductRepository productRepository;
 
     @Override
     public Iterable<Product> getAllProducts() {
         return productRepository.findAll();
+    }
+
+    @Override
+    public Product create(Product product) {
+        return productRepository.save(product);
+    }
+
+    @Override
+    public void update(Long Id, Product product) {
+        productRepository.save(product);
+    }
+
+    @Override
+    public void delete(Long Id) {
+        productRepository.deleteById(Id);
     }
 
     @Override
@@ -40,3 +54,4 @@ public class ProductServiceImpl implements ProductService {
         this.productRepository = productRepository;
     }
 }
+
