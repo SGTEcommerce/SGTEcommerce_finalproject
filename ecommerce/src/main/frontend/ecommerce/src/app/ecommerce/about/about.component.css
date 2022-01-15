@@ -1,0 +1,73 @@
+.main-section{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fff;
+    margin:40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.main-section-content{
+   padding: 100px 90px;
+}
+
+.about-me-section{
+    margin-bottom: 40px;
+}
+
+.img{
+    width: 370px;
+    height: auto;
+}
+
+.about-me-description{
+    width: 600px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    float:right;
+}
+
+
+.sidebar-section{
+    background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+    float:left;
+    margin:40px auto;
+
+}
+
+.contacts-section {
+    margin: 50px 0 0 40px;
+}
+
+.sidebar-section-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+.contacts-section-type{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 5px;
+}
+.contacts-section-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565E6A;
+
+}
