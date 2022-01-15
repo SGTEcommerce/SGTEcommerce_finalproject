@@ -3,6 +3,7 @@ package lv.sgtecommerce.finalproject.controllers;
 import lv.sgtecommerce.finalproject.models.User;
 import lv.sgtecommerce.finalproject.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +22,13 @@ public class UserController {
     @GetMapping("/get")
     public List<User> getUsers() {
         return userRepository.findAll();
+    }
+
+    @GetMapping("/register")
+    public String showRegistrationForm(Model model) {
+        model.addAttribute("user", new User());
+
+        return "signup_form";
     }
 
 }

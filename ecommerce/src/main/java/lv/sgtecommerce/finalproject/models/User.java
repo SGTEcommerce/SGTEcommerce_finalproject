@@ -1,18 +1,13 @@
 package lv.sgtecommerce.finalproject.models;
-
 import javax.persistence.*;
 
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class User {
 
     @Id
-    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column(nullable = false, length = 30)
-    private String name;
 
     @Column(nullable = false, unique = true, length = 45)
     private String email;
@@ -20,8 +15,11 @@ public class User {
     @Column(nullable = false, length = 64)
     private String password;
 
-    @Column(name = "type")
-    private String type;
+    @Column(name = "first_name", nullable = false, length = 20)
+    private String firstName;
+
+    @Column(name = "last_name", nullable = false, length = 20)
+    private String lastName;
 
     public Long getId() {
         return id;
@@ -31,24 +29,12 @@ public class User {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getEmail() {
+        return email;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getEmail() {return email;}
-
-    public void setEmail(String email) {this.email = email;}
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getPassword() {
@@ -59,4 +45,19 @@ public class User {
         this.password = password;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 }

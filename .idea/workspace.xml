@@ -4,19 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f22136f-1fa1-4b17-b655-452b06b094d5" name="Changes" comment="Linking pages">
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/models/Banner.java" afterDir="false" />
+    <list default="true" id="2f22136f-1fa1-4b17-b655-452b06b094d5" name="Changes" comment="Login start with uit tests.">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/menu/signup_form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/test/java/lv/sgtecommerce/finalproject/UserRepositoryTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/ecommerce-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/ecommerce-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/ecommerce.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/ecommerce.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/menu/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/menu/menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/models/Product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/models/Product.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/products/products.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/products/products.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/products/products.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/products/products.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +35,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="com.haulmont.jpb.JpaEntity" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,7 +62,7 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -67,25 +77,33 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/banner" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src" />
     <property name="settings.editor.selected.configurable" value="com.haulmont.jpb.dbDrivers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\banner" />
-      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\models" />
-      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\about" />
-      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\footer" />
-      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\products" />
+      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src" />
+      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\service" />
+      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce" />
+      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\login" />
+      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\add-products" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\menu" />
+      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src" />
+      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app" />
       <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\about" />
       <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\shopping-cart" />
-      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\models" />
-      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\products\image" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lv.sgtecommerce.finalproject" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lv.sgtecommerce.finalproject.services" />
+      <recent name="lv.sgtecommerce.finalproject.models" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.EcommerceApplication">
     <configuration name="EcommerceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lv.sgtecommerce.finalproject.EcommerceApplication" />
       <module name="ecommerce" />
@@ -99,9 +117,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv.sgtecommerce.finalproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv.sgtecommerce.finalproject" />
+      <option name="MAIN_CLASS_NAME" value="lv.sgtecommerce.finalproject.UserRepositoryTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTests.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv.sgtecommerce.finalproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv.sgtecommerce.finalproject" />
+      <option name="MAIN_CLASS_NAME" value="lv.sgtecommerce.finalproject.UserRepositoryTests" />
+      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.EcommerceApplication" />
+        <item itemvalue="JUnit.UserRepositoryTests" />
+        <item itemvalue="JUnit.UserRepositoryTests.testCreateUser" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641859179951</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Banner added">
+      <created>1642100804297</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642100804297</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -204,6 +262,13 @@
     <MESSAGE value="First add" />
     <MESSAGE value="User controller" />
     <MESSAGE value="Linking pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linking pages" />
+    <MESSAGE value="Banner added" />
+    <MESSAGE value="Login start with uit tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Login start with uit tests." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SGTEcommerce_finalproject$UserRepositoryTests_testCreateUser.ic" NAME="UserRepositoryTests.testCreateUser Coverage Results" MODIFIED="1642172101584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lv.sgtecommerce.finalproject.*</FILTER>
+    </SUITE>
   </component>
 </project>
