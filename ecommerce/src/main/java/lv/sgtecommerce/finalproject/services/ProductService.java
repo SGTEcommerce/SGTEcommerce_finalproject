@@ -13,6 +13,12 @@ public interface ProductService {
 
     @NotNull Iterable<Product> getAllProducts();
 
+    Product create (Product product);
+
+    void update (Long Id, Product product);
+
+    void delete (Long Id);
+
     Product getProduct(@Min(value = 1L, message = "Invalid product ID.") long id) throws Exception;
 
     Product save(Product product);

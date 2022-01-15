@@ -1,0 +1,23 @@
+.summary{
+    text-align: center;
+    top: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #4e8bc0;
+    padding-bottom: 50px;
+}
+
+.product-name{
+    color: rgb(23, 51, 211);
+    font-size: 20px;
+}
+
+.total{
+    padding: 10px;
+    top: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    border-top: 1px solid #4e8bc0;
+}

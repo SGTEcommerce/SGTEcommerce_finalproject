@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule} from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +12,9 @@ import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './ecommerce/menu/menu.component';
 import { UsersComponent } from './ecommerce/admin/users/users.component';
 import { FooterComponent } from './ecommerce/footer/footer.component';
+import { ProductDetailsComponent } from './ecommerce/product-details/product-details.component';
+import { AboutComponent } from './ecommerce/about/about.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +25,9 @@ import { FooterComponent } from './ecommerce/footer/footer.component';
     ShoppingCartComponent,
     MenuComponent,
     UsersComponent,
-    FooterComponent
+    FooterComponent,
+    ProductDetailsComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,

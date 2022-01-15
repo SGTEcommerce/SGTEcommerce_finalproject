@@ -21,6 +21,21 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
+    public Product create(Product product) {
+        return productRepository.save(product);
+    }
+
+    @Override
+    public void update(Long Id, Product product) {
+        productRepository.save(product);
+    }
+
+    @Override
+    public void delete(Long Id) {
+        productRepository.deleteById(Id);
+    }
+
+    @Override
     public Product getProduct(long id) throws Exception {
         return productRepository
                 .findById(id)
@@ -40,3 +55,4 @@ public class ProductServiceImpl implements ProductService {
         this.productRepository = productRepository;
     }
 }
+

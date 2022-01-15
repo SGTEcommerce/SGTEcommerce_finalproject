@@ -12,7 +12,6 @@ import java.time.LocalDate;
 @Transactional
 public class OrderServiceImpl implements OrderService {
 
-    // orderRepository constructor injection
     @Autowired
     OrderRepository orderRepository;
 
