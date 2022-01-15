@@ -17,6 +17,7 @@ export class ProductsComponent implements OnInit {
   private shoppingCartOrders!: ProductOrders;
   sub!: Subscription;
   productSelected: boolean = false;
+  selectedProduct!: Product;
 
   constructor(private ecommerceService: EcommerceServiceService) { }
 
@@ -82,6 +83,12 @@ export class ProductsComponent implements OnInit {
     this.ecommerceService.ProductOrders.productOrders = [];
     this.loadOrders();
     this.productSelected = false;
+  }
+
+  // Selecting product to show details
+  onSelect(product: Product){
+    this.selectedProduct = product;
+    console.log(this.selectedProduct);
   }
 
 }

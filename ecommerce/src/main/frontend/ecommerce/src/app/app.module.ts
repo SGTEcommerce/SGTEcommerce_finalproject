@@ -12,6 +12,10 @@ import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './ecommerce/menu/menu.component';
 import { UsersComponent } from './ecommerce/admin/users/users.component';
 import { FooterComponent } from './ecommerce/footer/footer.component';
+import { LoginComponent } from './ecommerce/login/login.component';
+import { SignupComponent } from './ecommerce/signup/signup.component';
+import { AboutComponent } from './ecommerce/about/about.component';
+import { ProductDetailsComponent } from './ecommerce/product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { FooterComponent } from './ecommerce/footer/footer.component';
     ShoppingCartComponent,
     MenuComponent,
     UsersComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent,
+    SignupComponent,
+    AboutComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,

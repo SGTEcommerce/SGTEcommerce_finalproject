@@ -1,26 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-     <img src="/assets/logo.JPG" alt="logo" width="40" height="32" class="d-inline-block align-text-top">PE_UNIQUE</a>
-
-<!-- Information about languages should be inserted -->
-
-    <!-- Admin section -->
-    <ul class="navbar-nav">
-      <li><a routerLink="/admin" class="nav-link">Admin</a></li>
-    </ul>
-    <!-- Search section -->
-    <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-sm btn-outline-secondary" type="submit">Search</button>
-      </form>
-    </div>
-</nav>
-
 <div class="row">
-  <div>
-    <app-menu ></app-menu>
-  </div>
   <div class="col-md-9">
     <app-products #productsC [hidden]="orderFinished"></app-products>
   </div>
@@ -32,6 +10,3 @@
     <app-orders #ordersC [hidden]="!orderFinished"></app-orders>
   </div>
 </div>
-
-
-
