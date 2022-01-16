@@ -17,18 +17,20 @@ public class User {
     @NotEmpty
     private String email;
 
-    @Column(name = "name")
+    @Column(name = "username")
     @NotEmpty
-    private String name;
+    private String username;
 
     @Column(name = "password")
     @NotEmpty
     @Size(min = 5, message = "Length must be more than 5")
     private String password;
 
-    @Column(name = "role")
-    @NotEmpty
-    private String role = "ROLE_CUSTOMER";
+    @Transient
+    private String passwordConfirm;
+
+    @ManyToOne
+    private Role role;
 
     public Long getId() {
         return id;
@@ -46,12 +48,12 @@ public class User {
         this.email = email;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String name) {
+        this.username = name;
     }
 
     public String getPassword() {
@@ -62,22 +64,30 @@ public class User {
         this.password = password;
     }
 
-    public String getRole() {
+    public String getPasswordConfirm() {
+        return passwordConfirm;
+    }
+
+    public void setPasswordConfirm(String passwordConfirm) {
+        this.passwordConfirm = passwordConfirm;
+    }
+
+    public Role getRole() {
         return role;
     }
 
-    public void setRole(String role) {
+    public void setRole(Role role) {
         this.role = role;
     }
 
-    @Override
+    /*@Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", email='" + email + '\'' +
-                ", name='" + name + '\'' +
+                ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", role='" + role + '\'' +
                 '}';
-    }
+    }*/
 }

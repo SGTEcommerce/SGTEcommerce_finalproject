@@ -14,6 +14,8 @@ import { UsersComponent } from './ecommerce/admin/users/users.component';
 import { FooterComponent } from './ecommerce/footer/footer.component';
 import { ProductDetailsComponent } from './ecommerce/product-details/product-details.component';
 import { AboutComponent } from './ecommerce/about/about.component';
+import { LoginComponent } from './ecommerce/login/login.component';
+import { SignupComponent } from './ecommerce/signup/signup.component';
 
 
 @NgModule({
@@ -28,6 +30,8 @@ import { AboutComponent } from './ecommerce/about/about.component';
     FooterComponent,
     ProductDetailsComponent,
     AboutComponent,
+    LoginComponent,
+    SignupComponent,
   ],
   imports: [
     BrowserModule,
