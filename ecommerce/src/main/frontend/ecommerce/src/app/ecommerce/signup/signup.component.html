@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html>
 <head>
   <meta charset="utf-8">
   <title>Create an account</title>
@@ -8,27 +8,27 @@
 </head>
 <body>
 <div class="container">
-  <header th:insert="blocks/header :: header"></header>
+  <header insert="blocks/header :: header"></header>
   <br/>
-  <form method="POST" class="form-signin" th:object="${userForm}" th:action="@{/registration}">
+  <form method="POST" class="form-signin" object="${userForm}" action="@{/signup}">
     <h2 class="form-signin-heading">Create your account</h2>
     <div class="form-group">
-      <input type="text" th:field="*{username}" class="form-control" placeholder="Username"
+      <input type="text" field="*{username}" class="form-control" placeholder="Username"
              autofocus="true">
-      <span class="has-error" th:if="${#fields.hasErrors('username')}" th:errors="*{username}"></span>
+      <span class="has-error" if="${#fields.hasErrors('username')}" errors="*{username}"></span>
     </div>
     <div class="form-group">
-      <input type="password" th:field="*{password}" class="form-control" placeholder="Password">
-      <span class="has-error" th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></span>
+      <input type="password" field="*{password}" class="form-control" placeholder="Password">
+      <span class="has-error" if="${#fields.hasErrors('password')}" errors="*{password}"></span>
     </div>
     <div class="form-group">
-      <input type="password" th:field="*{passwordConfirm}" class="form-control"
+      <input type="password" field="*{passwordConfirm}" class="form-control"
              placeholder="Confirm your password">
-      <span class="has-error" th:if="${#fields.hasErrors('passwordConfirm')}" th:errors="*{passwordConfirm}"></span>
+      <span class="has-error" if="${#fields.hasErrors('passwordConfirm')}" errors="*{passwordConfirm}"></span>
     </div>
     <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
   </form>
-  <div th:insert="blocks/footer :: footer"></div>
+  <div insert="blocks/footer :: footer"></div>
 </div>
 </body>
 </html>
