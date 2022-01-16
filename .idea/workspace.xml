@@ -5,27 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f22136f-1fa1-4b17-b655-452b06b094d5" name="Changes" comment="Login start with uit tests.">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/menu/signup_form.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/AppController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/test/java/lv/sgtecommerce/finalproject/UserRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/success/success.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/success/success.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/success/success.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/success/success.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/services/CustomUserDetailsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_5_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/menu/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/menu/menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/menu/signup_form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/products/products.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/products/products.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/products/products.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/products/products.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/AppController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/models/Banner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/models/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/test/java/lv/sgtecommerce/finalproject/UserRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/test/java/lv/sgtecommerce/finalproject/UserRepositoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +43,8 @@
       <list>
         <option value="com.haulmont.jpb.JpaEntity" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -49,6 +55,15 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -77,23 +92,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce" />
     <property name="settings.editor.selected.configurable" value="com.haulmont.jpb.dbDrivers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce" />
+      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\signup-form" />
+      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\product-details" />
       <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src" />
       <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\service" />
-      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce" />
-      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\login" />
-      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\add-products" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\signup-form" />
+      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce" />
       <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\menu" />
       <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src" />
       <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app" />
-      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\about" />
-      <recent name="C:\Users\laura\IdeaProjects\SGTEcommerce_finalproject\ecommerce\src\main\frontend\ecommerce\src\app\ecommerce\shopping-cart" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="lv.sgtecommerce.finalproject" />
@@ -228,11 +244,29 @@
       <option name="project" value="LOCAL" />
       <updated>1642100804297</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Login start with uit tests.">
+      <created>1642234649413</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642234649413</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

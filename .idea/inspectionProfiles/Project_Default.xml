@@ -4,8 +4,18 @@
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="1">
+          <list size="11">
             <item index="0" class="java.lang.String" itemvalue="routerlink" />
+            <item index="1" class="java.lang.String" itemvalue="[(ngmodel)]" />
+            <item index="2" class="java.lang.String" itemvalue="[disabled]" />
+            <item index="3" class="java.lang.String" itemvalue="*ngif" />
+            <item index="4" class="java.lang.String" itemvalue="(click)" />
+            <item index="5" class="java.lang.String" itemvalue="*ngfor" />
+            <item index="6" class="java.lang.String" itemvalue="routerlinkactive" />
+            <item index="7" class="java.lang.String" itemvalue="[routerlinkactiveoptions]" />
+            <item index="8" class="java.lang.String" itemvalue="th:object" />
+            <item index="9" class="java.lang.String" itemvalue="th:field" />
+            <item index="10" class="java.lang.String" itemvalue="th:action" />
           </list>
         </value>
       </option>

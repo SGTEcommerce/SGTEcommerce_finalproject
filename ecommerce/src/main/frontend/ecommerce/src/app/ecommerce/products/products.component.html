@@ -1,4 +1,3 @@
-
 <div class="container">
   <div class="wrapper">
     <img src="/assets/slider8.jfif">
@@ -7,8 +6,6 @@
     <img src="/assets/slider9.jfif">
   </div>
 </div>
-
-
 
 <div class="row card-deck">
     <div class="col-lg-4 col-md-6 mb-4" *ngFor="let order of productOrders">
@@ -34,9 +31,9 @@
                         </button>
                     </div>
                     <div class="col-12" *ngIf="isProductSelected(order.product)">
-                        <button class="btn btn-secondary btn-block"
-                                (click)="removeFromCart(order)">Remove From Cart
-                        </button>
+                      <button class="btn btn-secondary btn-block"
+                            (click)="removeFromCart(order)">Remove From Cart
+                      </button>
                     </div>
                 </div>
             </div>

@@ -1,34 +1,25 @@
 package lv.sgtecommerce.finalproject.models;
-
 import javax.persistence.*;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Size;
 
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class User {
 
     @Id
-    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "email")
-    @NotEmpty
+    @Column(nullable = false, unique = true, length = 45)
     private String email;
 
-    @Column(name = "name")
-    @NotEmpty
-    private String name;
-
-    @Column(name = "password")
-    @NotEmpty
-    @Size(min = 5, message = "Length must be more than 5")
+    @Column(nullable = false, length = 64)
     private String password;
 
-    @Column(name = "role")
-    @NotEmpty
-    private String role = "ROLE_CUSTOMER";
+    @Column(name = "first_name", nullable = false, length = 20)
+    private String firstName;
+
+    @Column(name = "last_name", nullable = false, length = 20)
+    private String lastName;
 
     public Long getId() {
         return id;
@@ -46,14 +37,6 @@ public class User {
         this.email = email;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getPassword() {
         return password;
     }
@@ -62,22 +45,19 @@ public class User {
         this.password = password;
     }
 
-    public String getRole() {
-        return role;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setRole(String role) {
-        this.role = role;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", email='" + email + '\'' +
-                ", name='" + name + '\'' +
-                ", password='" + password + '\'' +
-                ", role='" + role + '\'' +
-                '}';
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
