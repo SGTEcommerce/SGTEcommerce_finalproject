@@ -9,13 +9,14 @@ import { ShoppingCartComponent } from './ecommerce/shopping-cart/shopping-cart.c
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
   { path: 'home', component: ProductsComponent },
-  { path: 'yewelery', component: EcommerceComponent},
+  { path: 'products', component: EcommerceComponent},
   { path: 'about', component: AboutComponent },
-  { path: 'details', component: ProductDetailsComponent },
+  { path: 'products/:id', component: ProductDetailsComponent },
   { path: 'cart', component: ShoppingCartComponent },
  /* { path: 'faq', component: FaqComponent },
   { path: 'policies', component: PoliciesComponent },
   { path: 'login', component: LoginComponent },*/
+
 ];
 
 @NgModule({

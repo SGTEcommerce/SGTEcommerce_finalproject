@@ -63,7 +63,7 @@ export class EcommerceServiceService {
         this.total = value;
         this.totalSubject.next();
     }
-    
+
     /*getDetail(id: String): Observable<ProductInfo> {
         const url = `${this.productUrl}/${id}`;
         return this.http.get<ProductInfo>(url).pipe(
@@ -89,7 +89,7 @@ export class EcommerceServiceService {
         const url = `${apiUrl}/seller/product/${productInfo.productId}/delete`;
         return this.http.delete(url);
     }
-    
+
      getPage(page = 1, size = 10): Observable<any> {
         return this.http.get(`${this.orderUrl}?page=${page}&size=${size}`).pipe();
     }
@@ -111,23 +111,5 @@ export class EcommerceServiceService {
             catchError(_ => of(null))
         );
     }*/
-
-
-    /**
-     * Handle Http operation that failed.
-     * Let the app continue.
-     * @param operation - name of the operation that failed
-     * @param result - optional value to return as the observable result
-     */
-    private handleError<T>(operation = 'operation', result?: T) {
-        return (error: any): Observable<T> => {
-
-            console.error(error); // log to console instead
-
-            // Let the app keep running by returning an empty result.
-            return of(result as T);
-        };
-    }
-
 
 }
