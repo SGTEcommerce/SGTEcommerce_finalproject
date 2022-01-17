@@ -10,12 +10,14 @@ import { ShoppingCartComponent } from './ecommerce/shopping-cart/shopping-cart.c
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './ecommerce/menu/menu.component';
-import { UsersComponent } from './ecommerce/admin/users/users.component';
 import { FooterComponent } from './ecommerce/footer/footer.component';
 import { ProductDetailsComponent } from './ecommerce/product-details/product-details.component';
 import { AboutComponent } from './ecommerce/about/about.component';
 import { SignupComponent } from './ecommerce/signup/signup.component';
 import { SuccessComponent } from './ecommerce/success/success.component';
+//import { LoginComponent } from './ecommerce/login/login.component';
+//import { LogoutComponent } from './ecommerce/logout/logout.component';
+// import { UsersComponent } from './ecommerce/users/users.component';
 
 
 @NgModule({
@@ -26,12 +28,14 @@ import { SuccessComponent } from './ecommerce/success/success.component';
     OrdersComponent,
     ShoppingCartComponent,
     MenuComponent,
-    UsersComponent,
     FooterComponent,
     ProductDetailsComponent,
     AboutComponent,
-    SignupComponent,
-    SuccessComponent
+    SignupComponent
+    //SuccessComponent
+   // LoginComponent,
+    //LogoutComponent
+    //UsersComponent
   ],
   imports: [
     BrowserModule,

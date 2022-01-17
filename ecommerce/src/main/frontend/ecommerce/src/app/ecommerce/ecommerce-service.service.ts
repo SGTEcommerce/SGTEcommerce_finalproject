@@ -63,7 +63,7 @@ export class EcommerceServiceService {
         this.total = value;
         this.totalSubject.next();
     }
-    
+
     /*getDetail(id: String): Observable<ProductInfo> {
         const url = `${this.productUrl}/${id}`;
         return this.http.get<ProductInfo>(url).pipe(
@@ -89,7 +89,7 @@ export class EcommerceServiceService {
         const url = `${apiUrl}/seller/product/${productInfo.productId}/delete`;
         return this.http.delete(url);
     }
-    
+
      getPage(page = 1, size = 10): Observable<any> {
         return this.http.get(`${this.orderUrl}?page=${page}&size=${size}`).pipe();
     }

@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController //get request to return a list of users
 @CrossOrigin(origins = "http://localhost:4200") //annotation to specify that calls will be made to this controller from different domains. In our case we have specified that a call can be made from localhost:4200.
-@RequestMapping(path = "users")
+@RequestMapping("/api/signup")
 public class UserController {
 
     @Autowired
@@ -28,7 +28,7 @@ public class UserController {
     public String showRegistrationForm(Model model) {
         model.addAttribute("user", new User());
 
-        return "signup_form";
+        return "signup";
     }
 
 }

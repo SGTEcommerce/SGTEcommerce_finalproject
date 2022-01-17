@@ -26,10 +26,10 @@ public class UserRepositoryTests {
     @Test
     public void testCreateUser() {
         User user = new User();
-        user.setEmail("testtest@yahoo.com");
-        user.setPassword("test123");
-        user.setFirstName("Tom");
-        user.setLastName("Smith");
+        user.setEmail("tere@yaoo.com");
+        user.setPassword("teres123");
+        user.setFirstName("Tere");
+        user.setLastName("Tere");
 
         User savedUser = repo.save(user);
 
@@ -39,6 +39,12 @@ public class UserRepositoryTests {
 
     }
 
+   @Test
+    public void testFindUserByEmail() {
+        String email = "lasens@yahoo.com";
+        User user = repo.findByEmail(email);
+        assertThat(user).isNotNull();
+    }
 
 }
 
