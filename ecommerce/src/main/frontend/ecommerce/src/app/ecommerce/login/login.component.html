@@ -1,26 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Log in with your account</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="login.component.css" type="text/css">
-</head>
-<body>
-<div class="container">
-  <form class="form-signin" method="POST" action="@{/login}">
-    <h2 class="form-heading">Log in</h2>
-    <div class="form-group">
-      <span text="${message}"></span>
-      <input name="username" type="text" class="form-control" placeholder="Username"
-             autofocus="true"/>
-      <input name="password" type="password" class="form-control" placeholder="Password"/>
-      <span class="has-error" text="${error}"></span>
-      <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Log In</button>
-      <h4 class="text-center"><a href="/signup">Create an account</a></h4>
-    </div>
-  </form>
+﻿<div class="px-5 col-12" style="margin-top: 5rem;">
+    <h1 align="center" class="display-4 mb-5">Login</h1>
+    <form class="col-4 mx-auto mt-5" action="" (submit)="logIn()">
+
+      <div class="form-group">
+        <input type="text" class="form-control form-control-lg" id="username" name="username"
+               placeholder="Username" [(ngModel)]="username">
+      </div>
+
+      <div class="form-group">
+        <input type="password" class="form-control form-control-lg" id="password" name="password"
+               placeholder="Password" [(ngModel)]="password">
+      </div>
+
+
+
+        <input type="submit"value="Log in" style="border: 1px solid #fffa;" class="btn btn-lg btn-primary btn-block"/>
+        <h4
+            *ngIf="error"
+            style="text-align: center;"
+            class="alert-danger p-2 m-5 rounded"
+        >{{error}}</h4>
+    </form>
 </div>
-</body>
-</html>

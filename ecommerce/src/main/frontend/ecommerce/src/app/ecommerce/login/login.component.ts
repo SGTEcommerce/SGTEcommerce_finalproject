@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { UsersService } from '../admin/users/users.service';
+import { Token } from '../models/Token';
 
 @Component({
   selector: 'app-login',
@@ -6,10 +9,29 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+  public username : string
+  public password : string
+  public error : string
 
-  constructor() { }
+  constructor(private usersService : UsersService, private router : Router) { }
 
   ngOnInit(): void {
-  }
+    if (localStorage.getItem('token')) {
+        this.router.navigateByUrl('/account')
+    }
+}
 
+logIn () {
+    this.error = ''
+
+    this.usersService.login(
+        this.username, this.password).subscribe((token : Token) => {
+            localStorage.setItem('token', token.token);
+            this.router.navigateByUrl('/account').then(() => window.location.reload())
+        }, (error : ErrorEvent) => {
+            console.log(error);
+            this.error = "Invalid login credentials"
+        })
+    
+}
 }
