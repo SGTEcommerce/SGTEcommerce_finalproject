@@ -1,25 +1,24 @@
 package lv.sgtecommerce.finalproject.models;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Size;
+
 
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class User {
 
     @Id
-    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private long id;
 
-    @Column(name = "email")
-    @NotEmpty
-    private String email;
-
-    @Column(name = "username")
-    @NotEmpty
+    @Column(unique = true, nullable = false, length = 35)
     private String username;
+
+    @Column(nullable = false, length = 128)
+    private String password;
+
+    @Column(unique = true, nullable = false, length = 100)
+    private String email;
 
     @Column(nullable = false, length = 100)
     private String name;
@@ -30,51 +29,32 @@ public class User {
     @Column(nullable = false, length = 15)
     private String phone;
 
-    @Column(name = "password")
-    @NotEmpty
-    @Size(min = 5, message = "Length must be more than 5")
-    private String password;
+    public User () {
+    }
 
-    @Transient
-    private String passwordConfirm;
-
-    @ManyToOne
-    private Role role;
-
-    public User(Long id, String email, String username, String name, String address, String phone, String password, String passwordConfirm, Role role) {
-        this.id = id;
-        this.email = email;
+    public User (String username, String password, String email, String name, String address, String phone) {
         this.username = username;
+        this.password = password;
+        this.email = email;
         this.name = name;
         this.address = address;
         this.phone = phone;
-        this.password = password;
-        this.passwordConfirm = passwordConfirm;
-        this.role = role;
     }
 
-    public Long getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public String getUsername() {
         return username;
     }
 
-    public void setUsername(String name) {
-        this.username = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -85,21 +65,14 @@ public class User {
         this.password = password;
     }
 
-    public String getPasswordConfirm() {
-        return passwordConfirm;
+    public String getEmail() {
+        return email;
     }
 
-    public void setPasswordConfirm(String passwordConfirm) {
-        this.passwordConfirm = passwordConfirm;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public Role getRole() {
-        return role;
-    }
-
-    public void setRole(Role role) {
-        this.role = role;
-    }
     public String getName() {
         return name;
     }
@@ -128,13 +101,12 @@ public class User {
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", email='" + email + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
-                 ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", name='" + name + '\'' +
                 ", address='" + address + '\'' +
-                ", phone='" + phone + '\'' +
-                ", role='" + role + '\'' +
+                ", phone='" + phone +
                 '}';
     }
 }
