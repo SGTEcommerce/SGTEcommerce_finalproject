@@ -4,28 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f22136f-1fa1-4b17-b655-452b06b094d5" name="Changes" comment="Login 2/3 done">
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/signup/signup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/models/PasswordEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/services/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="2f22136f-1fa1-4b17-b655-452b06b094d5" name="Changes" comment="Login 2/3 done.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/admin/users/users.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/user/user.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/admin/users/users.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/user/user.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/admin/users/users.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/user/user.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/admin/users/users.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/user/user.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/ecommerce-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/ecommerce-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/menu/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/menu/menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/models/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/models/User.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/services/CustomUserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/lv/sgtecommerce/finalproject/services/CustomUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/test/java/lv/sgtecommerce/finalproject/UserRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/test/java/lv/sgtecommerce/finalproject/UserRepositoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +71,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce/src/main/frontend/ecommerce/src/app/ecommerce/signup" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.haulmont.jpb.dbDrivers" />
   </component>
   <component name="RecentsManager">
@@ -292,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642291741273</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Login 2/3 done.">
+      <created>1642449625408</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1642449625408</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -340,7 +328,8 @@
     <MESSAGE value="Banner added" />
     <MESSAGE value="Login start with uit tests." />
     <MESSAGE value="Login 2/3 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login 2/3 done" />
+    <MESSAGE value="Login 2/3 done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Login 2/3 done." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SGTEcommerce_finalproject$UserRepositoryTests_testCreateUser.ic" NAME="UserRepositoryTests.testCreateUser Coverage Results" MODIFIED="1642172101584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -16,6 +16,7 @@ import java.util.List;
 
 
 @RequestMapping("/api/signup")
+
 @Controller
 public class AppController {
 
@@ -26,8 +27,6 @@ public class AppController {
     public String viewHomePage() {
         return "/menu.component";
     }
-
-
 
 
 
@@ -42,7 +41,7 @@ public class AppController {
 
         repo.save(user);
 
-        return "/success.component";
+        return "/signup.component";
     }
 
     @GetMapping("/users")
@@ -53,9 +52,9 @@ public class AppController {
         return "users";
     }
 
-    @GetMapping("/user")
+    @GetMapping("/users")
     public String viewUserList() {
-        return  "user";
+        return  "users";
     }
 
 }
