@@ -10,7 +10,7 @@ import { SignupComponent } from './ecommerce/signup/signup.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
-  { path: 'home', component: ProductsComponent },
+  { path: 'home', component: EcommerceComponent },
   { path: 'products', component: EcommerceComponent},
   { path: 'about', component: AboutComponent },
   { path: 'products/:id', component: ProductDetailsComponent },

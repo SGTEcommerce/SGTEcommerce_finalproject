@@ -6,15 +6,20 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 import java.security.Principal;
 import java.util.Base64;
+import java.util.HashMap;
 
 @RestController //get request to return a list of users
 @CrossOrigin
 public class UserController {
 
     @RequestMapping("/login")
-    public boolean login(@RequestBody User user) {
-        return
-                user.getEmail().equals("email") && user.getPassword().equals("password");
+    public HashMap<String, String> login(@RequestBody User user) {
+
+        HashMap<String, String> token = new HashMap<>();
+        token.put("token", user.getUsername());
+        return token;
+                
+                //user.getUsername().equals("username") && user.getPassword().equals("password");
     }
 
     @RequestMapping("/user")
