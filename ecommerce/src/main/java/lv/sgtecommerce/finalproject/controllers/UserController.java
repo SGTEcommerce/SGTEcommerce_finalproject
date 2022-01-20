@@ -1,34 +1,74 @@
 package lv.sgtecommerce.finalproject.controllers;
 
+import lv.sgtecommerce.finalproject.configs.JwtUtil;
 import lv.sgtecommerce.finalproject.models.User;
-import lv.sgtecommerce.finalproject.repositories.UserRepository;
+import lv.sgtecommerce.finalproject.services.JwtUserDetailsService;
+import lv.sgtecommerce.finalproject.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.web.bind.annotation.*;
 
+import javax.transaction.Transactional;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
-@RestController //get request to return a list of users
-@CrossOrigin(origins = "http://localhost:4200") //annotation to specify that calls will be made to this controller from different domains. In our case we have specified that a call can be made from localhost:4200.
-@RequestMapping("/api/signup")
+@RestController
+@CrossOrigin
+@RequestMapping("/api")
 public class UserController {
+    private final UserService userService;
 
     @Autowired
-    private UserRepository userRepository;
+    private JwtUserDetailsService jwtUserDetailsService;
 
-    @GetMapping("/get")
-    public List<User> getUsers() {
-        return userRepository.findAll();
+    @Autowired
+    private JwtUtil jwtUtil;
+
+    public UserController(UserService userService) {
+        this.userService = userService;
     }
 
-    @GetMapping("/signup")
-    public String showRegistrationForm(Model model) {
-        model.addAttribute("user", new User());
+    @PostMapping("/create-token")
+    public ResponseEntity<?> createToken(@RequestBody Map<String, String> user) throws Exception {
+        Map<String, Object> tokenResponse = new HashMap<>();
+        final UserDetails userDetails = jwtUserDetailsService.loadUserByUsername(user.get("username"));
+        final String token = jwtUtil.generateToken(userDetails);
 
-        return "signup";
+        tokenResponse.put("token", token);
+        return ResponseEntity.ok(tokenResponse);
     }
 
+    @GetMapping("/users")
+    public ResponseEntity<List<User>> getUsers() {
+        return new ResponseEntity<>(userService.getUsers(), HttpStatus.OK);
+    }
+
+    @GetMapping("/users/{id}")
+    public ResponseEntity<User> getUser(@PathVariable("id") Long id) {
+        return new ResponseEntity<>(userService.getUser(id), HttpStatus.OK);
+    }
+
+    @PutMapping("/users/{id}")
+    public ResponseEntity<User> updateUser(@PathVariable("id") Long id, @RequestBody Map<String, Object> user) {
+        User newUser = new User(
+                (String) user.get("username"),
+                (String) user.get("password"),
+                (String) user.get("email"),
+                (String) user.get("name"),
+                (String) user.get("address"),
+                (String) user.get("phone")
+        );
+
+        return new ResponseEntity<>(userService.updateUser(id, newUser), HttpStatus.OK);
+    }
+
+    @Transactional
+    @DeleteMapping("/users/{id}")
+    public ResponseEntity<?> deleteUser(@PathVariable("id") Long id) {
+        userService.deleteUser(id);
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
 }

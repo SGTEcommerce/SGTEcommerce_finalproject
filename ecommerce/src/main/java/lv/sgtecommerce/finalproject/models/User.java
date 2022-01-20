@@ -1,5 +1,7 @@
 package lv.sgtecommerce.finalproject.models;
+
 import javax.persistence.*;
+
 
 @Entity
 @Table(name = "users")
@@ -7,34 +9,52 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private long id;
 
-    @Column(nullable = false, unique = true, length = 45)
-    private String email;
+    @Column(unique = true, nullable = false, length = 35)
+    private String username;
 
-    @Column(nullable = false, length = 64)
+    @Column(nullable = false, length = 128)
     private String password;
 
-    @Column(name = "first_name", nullable = false, length = 20)
-    private String firstName;
+    @Column(unique = true, nullable = false, length = 100)
+    private String email;
 
-    @Column(name = "last_name", nullable = false, length = 20)
-    private String lastName;
+    @Column(nullable = false, length = 100)
+    private String name;
 
-    public Long getId() {
+    @Column(nullable = false, length = 128)
+    private String address;
+
+    @Column(nullable = false, length = 15)
+    private String phone;
+
+    public User () {
+    }
+
+    public User (String username, String password, String email, String name, String address, String phone) {
+        this.username = username;
+        this.password = password;
+        this.email = email;
+        this.name = name;
+        this.address = address;
+        this.phone = phone;
+    }
+
+    public long getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
-    public String getEmail() {
-        return email;
+    public String getUsername() {
+        return username;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -45,19 +65,48 @@ public class User {
         this.password = password;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getEmail() {
+        return email;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getName() {
+        return name;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", phone='" + phone +
+                '}';
     }
 }

@@ -5,12 +5,12 @@
     background-color: #fff;
     margin:40px auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    
+
 }
 
 
 .main-section-content{
-   padding: 100px 90px; 
+   padding: 100px 90px;
 }
 
 .about-me-section{
@@ -70,5 +70,5 @@
     font-size: 14px;
     line-height: 24px;
     color: #565E6A;
-    
+
 }
