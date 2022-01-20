@@ -16,9 +16,8 @@ usersService: UsersService | undefined;
   constructor() { }
 
   ngOnInit(): void {
-  
-  }
-  }
 
+  }
+}
 
 
