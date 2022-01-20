@@ -1,3 +1,4 @@
+<div class="order_created">Your order is sucessfully created!</div>
 <div class="summary">Order Details</div>
 
 <table class="table table-striped text-center">
@@ -52,9 +53,11 @@
 </table>
 
     <div class="total">Total amount: €{{ total }}</div>
+   
     <div class="row">
-        <button class="btn btn-primary btn-block" (click)="pay()" *ngIf="!paid">Purchase</button>
-    <div class="alert alert-success" role="alert" *ngIf="paid">
+        <a href="/payment" class="btn btn-secondary btn-lg btn-block" role="button" aria-pressed="true">Pay</a>
+        <!--<button class="btn btn-primary btn-block" href="/payment" (click)="pay()" *ngIf="!paid">Purchase</button>
+        <div class="alert alert-success" role="alert" *ngIf="paid">
         <strong>Congratulation!</strong> You successfully made the order.
-    </div>
+    </div>-->
 </div>

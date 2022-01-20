@@ -7,6 +7,8 @@ import { EcommerceComponent } from './ecommerce/ecommerce.component';
 import { ShoppingCartComponent } from './ecommerce/shopping-cart/shopping-cart.component';
 import { LoginComponent } from './ecommerce/login/login.component';
 import { SignupComponent } from './ecommerce/signup/signup.component';
+import { UsersComponent } from './ecommerce/admin/users/users.component';
+import { PaymentComponent } from './ecommerce/payment/payment.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -17,6 +19,8 @@ const routes: Routes = [
   { path: 'cart', component: ShoppingCartComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
+  { path: 'account', component: UsersComponent},
+  { path: 'payment', component: PaymentComponent},
  /* { path: 'faq', component: FaqComponent },
   { path: 'policies', component: PoliciesComponent },*/
 ];
