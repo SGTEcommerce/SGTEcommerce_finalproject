@@ -1,7 +1,10 @@
 export class User {
-    id: number;
-    name: string;
-    type: string;
-    password: string;
-
+    id : Number
+    username : string
+    password : string
+    email : string
+    name : string
+    address : string
+    phone : string
+    cartItems : [any]
 }

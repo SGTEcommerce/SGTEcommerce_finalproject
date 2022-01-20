@@ -2,16 +2,27 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="/home">
      <img src="/assets/logo.JPG" alt="logo" width="40" height="32" class="d-inline-block align-text-top">PE_UNIQUE</a>
-     
+
      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav"> 
+      <div class="navbar-nav">
         <!--put code *ngIf="!currentUser || currentUser.role == Role.Customer after navbar-nav after roles will be implemented-->
         <a class="nav-link" routerLinkActive="active" routerLink="/home"
         [routerLinkActiveOptions]="{exact: true}">HOME</a>
         <a class="nav-link" routerLinkActive="active" routerLink="/about"
         [routerLinkActiveOptions]="{exact: true}">ABOUT</a>
-        <a class="nav-link" routerLinkActive="active" routerLink="/yewelery"
-        [routerLinkActiveOptions]="{exact: true}">YEWELERY</a>
+        <a class="nav-link" routerLinkActive="active" routerLink="/products"
+        [routerLinkActiveOptions]="{exact: true}">PRODUCTS</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        ADMIN
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="/userslist">Users</a>
+        <a class="dropdown-item" href="/productslist">Poducts</a>
+        <a class="dropdown-item" href="/orderslist">Orders</a>
       </div>
     </div>
 
@@ -26,7 +37,7 @@
      <div class="navbar-nav">
       <a class="nav-link" routerLinkActive="active" routerLink="/login"
         [routerLinkActiveOptions]="{exact: true}">Login</a>
-     
+
       <a class="nav-link" routerLinkActive="active" routerLink="/signup"
         [routerLinkActiveOptions]="{exact: true}">Sign Up</a>
      </div>
@@ -36,7 +47,7 @@
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-sm btn-outline-secondary" type="submit">Search</button>
       </form> -->
-      
+
   </div>
 </nav>
 

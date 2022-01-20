@@ -14,6 +14,12 @@ import { UsersComponent } from './ecommerce/admin/users/users.component';
 import { FooterComponent } from './ecommerce/footer/footer.component';
 import { ProductDetailsComponent } from './ecommerce/product-details/product-details.component';
 import { AboutComponent } from './ecommerce/about/about.component';
+import { LoginComponent } from './ecommerce/login/login.component';
+import { SignupComponent } from './ecommerce/signup/signup.component';
+import { PaymentComponent } from './ecommerce/payment/payment.component';
+import { UsersListComponent } from './ecommerce/admin/users-list/users-list.component';
+import { ProductsListComponent } from './ecommerce/admin/products-list/products-list.component';
+import { OrdersListComponent } from './ecommerce/admin/orders-list/orders-list.component';
 
 
 @NgModule({
@@ -28,6 +34,12 @@ import { AboutComponent } from './ecommerce/about/about.component';
     FooterComponent,
     ProductDetailsComponent,
     AboutComponent,
+    LoginComponent,
+    SignupComponent,
+    PaymentComponent,
+    UsersListComponent,
+    ProductsListComponent,
+    OrdersListComponent,
   ],
   imports: [
     BrowserModule,
