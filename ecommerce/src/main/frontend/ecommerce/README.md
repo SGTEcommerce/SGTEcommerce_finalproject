@@ -57,3 +57,9 @@ Install Node.js and npm
 Run npm install
 Run ng serve
 The frontend is running on localhost:4200.
+
+**Known Bugs and Issues**
+
+-No admin panel implemented yet.
+-No payment and shipment functions added yet.
+-No mobile friendly yet.
