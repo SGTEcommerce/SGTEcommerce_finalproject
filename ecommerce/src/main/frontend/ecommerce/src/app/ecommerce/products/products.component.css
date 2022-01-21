@@ -1,3 +1,7 @@
+.row {
+    width: 100%;
+    height: auto;
+}
 .container {
     padding-top: 85px;
 }

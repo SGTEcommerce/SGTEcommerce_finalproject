@@ -1,11 +1,11 @@
 .summary{
     text-align: center;
-    top: 20px;
+    margin: 2% 0;
     color: black;
     font-size: 20px;
     font-weight: bold;
     border-bottom: 1px solid #4e8bc0;
-    padding-bottom: 50px;
+
 }
 
 .product-name{
@@ -20,4 +20,12 @@
     font-weight: bold;
     font-size: 16px;
     border-top: 1px solid #4e8bc0;
+}
+
+
+.btn {
+      background-color: #292c2f;
+      color: #17a2b8;
+      font-weight: bold;
+
 }

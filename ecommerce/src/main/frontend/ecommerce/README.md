@@ -1,27 +1,59 @@
-# Ecommerce
+# Designer items e-commerce shop
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
+A full-stack Online Shop web application using Spring Boot and Angular.
+This application includes backend and frontend, where users can sign up, login, view products and add products to the cart.
+The frontend client makes API calls to the backend server when it is running.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Screenshot
+![img.png](img.png)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+REST API
+JWT authentication
+Cart & order management
+Checkout
+Catalogue
+Order management
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologies used 
 
-## Running unit tests
+### Back-end
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Java 
+Spring Boot 
+Spring Security
+JWT Authentication
+Spring Data JPA
+Hibernate
+MySQL
+Maven
 
-## Running end-to-end tests
+### Front-end
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Angular 
+Bootstrap
 
-## Further help
+## How to Run the application
+Start the backend server before the frontend.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Back-end
+Connect MySQL database with project in application.properties
+Add necessary dependencies in the pom.xml:
+Sprig boot dependencies
+MySQL database
+jsonwebtoken
+jackson library
+lombok
+validation
+security
+The backend server is running on localhost:8080.
+
+### Front-end
+
+Install Node.js and npm
+Run npm install
+Run ng serve
+The frontend is running on localhost:4200.
