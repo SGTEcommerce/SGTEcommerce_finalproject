@@ -1,3 +1,18 @@
 .container {
     padding-top: 85px;
 }
+
+.btn {
+    position: relative;
+    width: 50%;
+    margin: 2% 25%;
+    background-color: #292c2f;
+    color: #17a2b8;
+    font-weight: bold;
+
+}
+.form-group {
+  display: flex;
+  width: 50%;
+  margin: 1% 25%;
+}

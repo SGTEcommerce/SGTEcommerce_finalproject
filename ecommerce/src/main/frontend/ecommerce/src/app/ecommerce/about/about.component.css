@@ -5,31 +5,34 @@
     background-color: #fff;
     margin:40px auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    
+
 }
 
 
 .main-section-content{
-   padding: 100px 90px; 
+   padding: 100px 90px;
 }
 
 .about-me-section{
     margin-bottom: 40px;
+    float:right;
+    margin-right: 30%;
+
 }
 
 .img{
-    width: 370px;
+    width: 100%;
     height: auto;
 }
 
 .about-me-description{
-    width: 600px;
+    width: 700px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     color: #595959;
-    float:right;
+
 }
 
 
@@ -70,5 +73,5 @@
     font-size: 14px;
     line-height: 24px;
     color: #565E6A;
-    
+
 }

@@ -1,0 +1,15 @@
+.d-flex {
+  display: flex;
+  width: 50%;
+  margin: 0 25%;
+}
+
+.btn {
+      background-color: #292c2f;
+      color: #17a2b8;
+      font-weight: bold;
+      width: 40%;
+
+
+}
+

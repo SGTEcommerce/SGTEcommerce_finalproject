@@ -1,13 +1,14 @@
 .footer-distributed {
-  position: relative;
-  top: 100px;
+  position: fixed;
+
   background-color: #292c2f;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
+  left: 0;
+  bottom: 0;
   width: 100%;
+  height: 210px;
   text-align: left;
   font: bold 16px sans-serif;
-  padding: 50px 50px;
+  padding: 30px 30px;
 
   .footer-left,
   .footer-center,
@@ -17,7 +18,8 @@
   }
 
   .footer-left {
-    width: 40%;
+    width: 30%;
+    margin: 0 5%;
 
   .footer-links {
       color: #ffffff;
@@ -101,11 +103,11 @@
         color: #ffffff;
         font-size: 14px;
         font-weight: bold;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
       }
     }
     .footer-icons {
-      margin-top: 25px;
+      margin-top: 10px;
       a {
         display: inline-block;
         width: 35px;

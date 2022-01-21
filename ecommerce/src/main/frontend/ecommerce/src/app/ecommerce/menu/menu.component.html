@@ -1,17 +1,17 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="/home">
-     <img src="/assets/logo.JPG" alt="logo" width="40" height="32" class="d-inline-block align-text-top">PE_UNIQUE</a>
+      <img src="/assets/logo.JPG" alt="logo" width="40" height="32" class="d-inline-block align-text-top">PE_UNIQUE</a>
 
-     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <!--put code *ngIf="!currentUser || currentUser.role == Role.Customer after navbar-nav after roles will be implemented-->
         <a class="nav-link" routerLinkActive="active" routerLink="/home"
-        [routerLinkActiveOptions]="{exact: true}">HOME</a>
+           [routerLinkActiveOptions]="{exact: true}">HOME</a>
         <a class="nav-link" routerLinkActive="active" routerLink="/about"
-        [routerLinkActiveOptions]="{exact: true}">ABOUT</a>
+           [routerLinkActiveOptions]="{exact: true}">ABOUT</a>
         <a class="nav-link" routerLinkActive="active" routerLink="/products"
-        [routerLinkActiveOptions]="{exact: true}">PRODUCTS</a>
+           [routerLinkActiveOptions]="{exact: true}">PRODUCTS</a>
       </div>
     </div>
 
@@ -29,18 +29,18 @@
     <div class="navbar-nav ml-auto">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <a class="nav-item nav-link " routerLink="/cart">
-          <i class="fa fa-shopping-cart"></i>
+        <i class="fa fa-shopping-cart"></i>
       </a>
     </div>
 
-     <!-- User section -->
-     <div class="navbar-nav">
+    <!-- User section -->
+    <div class="navbar-nav">
       <a class="nav-link" routerLinkActive="active" routerLink="/login"
-        [routerLinkActiveOptions]="{exact: true}">Login</a>
+         [routerLinkActiveOptions]="{exact: true}">Login</a>
 
       <a class="nav-link" routerLinkActive="active" routerLink="/signup"
-        [routerLinkActiveOptions]="{exact: true}">Sign Up</a>
-     </div>
+         [routerLinkActiveOptions]="{exact: true}">Sign Up</a>
+    </div>
 
     <!-- Search section
       <form class="d-flex">
@@ -50,5 +50,4 @@
 
   </div>
 </nav>
-
 

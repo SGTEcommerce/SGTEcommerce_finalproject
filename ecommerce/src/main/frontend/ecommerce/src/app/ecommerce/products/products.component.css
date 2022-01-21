@@ -48,4 +48,9 @@
         transform: translateX(-300%);
     }
 }
- 
+
+.row {
+  margin-top: 2%;
+}
+
+
